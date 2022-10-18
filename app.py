@@ -10,7 +10,7 @@ from urllib.error import URLError
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def get_data():
-    df = pd.read_csv("C:\\Users\\utilisateur\\Desktop\\projet_final\\Projet_1\\projet_1\\app\\data\\data_vis.csv")
+    df = pd.read_csv("app\\data\\data_vis.csv")
     
     return df
 
