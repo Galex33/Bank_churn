@@ -1,4 +1,4 @@
-from joblib import  load
+from joblib import load
 import os
 
 def get_model(country):
