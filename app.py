@@ -10,10 +10,8 @@ from urllib.error import URLError
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def get_data():
-    df = pd.read_csv("app\\data\\data_vis.csv")
-    
+    df = pd.read_csv("app\data\data_vis.csv")
     return df
-
 
 def intro():
     df = get_data()
